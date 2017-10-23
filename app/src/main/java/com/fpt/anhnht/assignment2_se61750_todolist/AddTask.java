@@ -37,6 +37,7 @@ public class AddTask extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setResult(RESULT_CANCELED);
+
         setContentView(R.layout.activity_add_alarm);
         initData();
         setDateView();
